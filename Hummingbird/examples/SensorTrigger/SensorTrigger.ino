@@ -8,6 +8,14 @@ HARDWARE REQUIREMENTS
 1 LED
 1 Light sensor (or other sensor if you prefer)
 
+SOFTWARE REQUIREMENTS
+Hummingbird library
+
+HOW TO USE
+Attach an LED to LED port 1
+Attach a vibration motor to vibration motor port 1
+Attach a chosen sensor to sensor port 1
+
 Verify and upload the code to your Hummingbird Duo. When finished, the status light should be on.
 
 Trigger your sensor; if you chose the light sensor you can just cover the sensor
@@ -28,9 +36,7 @@ void setup()
 void loop()
 {
   int x = hummingbird.readSensorValue(1); //Read from sensor 1
-  // The light sensor reads higher for more light. If it's under 100, probably
-  // someone is covering it or shading it.
-  if(x>100) 
+  if(x>100)
   {
     hummingbird.setStatusLED(255); //turn on Status LED
     hummingbird.setVibration(1,0); //turn off vibration motor

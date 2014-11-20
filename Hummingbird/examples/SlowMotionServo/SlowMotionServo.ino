@@ -1,6 +1,6 @@
 /*
-ServoTest
-Uses Hummingbird API to move the servo
+SlowMotionServo
+Uses Hummingbird API to slowly move the servo
 motor at Port 1 back and forth
 
 HARDWARE REQUIREMENTS
@@ -28,8 +28,7 @@ Initialize Hummingbird ports
 */
 void setup()
 {
-  //only initialize motors and servos
-  hummingbird.initOnlyMotorsAndServos();
+  hummingbird.init();
 }
 
 void loop()
