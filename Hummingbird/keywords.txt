@@ -1,0 +1,17 @@
+Hummingbird	KEYWORD1
+init	KEYWORD2
+initOnlyMotorsAndServos	KEYWORD2
+setLED	KEYWORD2
+setStatusLED	KEYWORD2
+setTriColorLED	KEYWORD2
+setMotor	KEYWORD2
+turnOnLEDFade	KEYWORD2
+turnOffLEDFade	KEYWORD2
+setVibration	KEYWORD2
+setServo	KEYWORD2
+readInputVoltage	KEYWORD2
+readSensorValue	KEYWORD2
+readDistance	KEYWORD2
+readTemperature	KEYWORD2
+turnOnVibrationMotorSpeed	KEYWORD2
+turnOffVibrationMotorSpeed	KEYWORD2
