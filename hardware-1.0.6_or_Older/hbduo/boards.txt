@@ -1,0 +1,22 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+hbduo.name=Hummingbird Duo
+hbduo.upload.protocol=avr109
+hbduo.upload.maximum_size=28672
+hbduo.upload.speed=57600
+hbduo.upload.disable_flushing=true
+hbduo.bootloader.low_fuses=0xff
+hbduo.bootloader.high_fuses=0xd8
+hbduo.bootloader.extended_fuses=0xcb
+hbduo.bootloader.path=caterina
+hbduo.bootloader.file=Caterina-HBDuo.hex
+hbduo.bootloader.unlock_bits=0x3F
+hbduo.bootloader.lock_bits=0x2F
+hbduo.build.mcu=atmega32u4
+hbduo.build.f_cpu=16000000L
+hbduo.build.vid=0x2354
+hbduo.build.pid=0x2333
+hbduo.build.core=arduino
+hbduo.build.variant=hbduo

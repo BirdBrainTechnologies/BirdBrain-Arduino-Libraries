@@ -1,0 +1,39 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+
+hbduo.name=Hummingbird Duo
+hbduo.vid.0=0x2354
+hbduo.pid.0=0x2333
+hbduo.vid.1=0x2354
+hbduo.pid.1=0x2444
+hbduo.upload.tool=arduino:avrdude
+hbduo.upload.protocol=avr109
+hbduo.upload.maximum_size=28672
+hbduo.upload.maximum_data_size=2560
+hbduo.upload.speed=57600
+hbduo.upload.disable_flushing=true
+hbduo.upload.use_1200bps_touch=true
+hbduo.upload.wait_for_upload_port=true
+
+hbduo.bootloader.tool=arduino:avrdude
+hbduo.bootloader.low_fuses=0xff
+hbduo.bootloader.high_fuses=0xd8
+hbduo.bootloader.extended_fuses=0xcb
+hbduo.bootloader.file=caterina/Caterina-HBDuo.hex
+hbduo.bootloader.unlock_bits=0x3F
+hbduo.bootloader.lock_bits=0x2F
+
+hbduo.build.mcu=atmega32u4
+hbduo.build.f_cpu=16000000L
+hbduo.build.vid=0x2354
+hbduo.build.pid=0x2333
+hbduo.build.usb_product="Hummingbird Duo"
+hbduo.build.usb_manufacturer="BIRDBRAIN TECHNOLOGIES LLC"
+hbduo.build.board=AVR_HUMMINGBIRDDUO
+hbduo.build.core=arduino:arduino
+hbduo.build.variant=hbduo
+hbduo.build.extra_flags={build.usb_flags}
+
+
