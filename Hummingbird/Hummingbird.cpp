@@ -376,7 +376,7 @@ void Hummingbird::transmitByteToTiny(byte cData)
 	/// Start transmission
 	SPDR = cData;
 	// Wait for transmission complete
-	while(!(SPSR & (1<<SPIF)));
+	while(!(SPSR & (1 << SPIF)));
 	delayMicroseconds(40);
 	PORTB |= _BV(PORTB4);
 }
