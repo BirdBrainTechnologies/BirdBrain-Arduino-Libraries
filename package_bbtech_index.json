@@ -17,7 +17,7 @@
           "help": {
             "online": "http://www.hummingbirdkit.com/learning/arduino-programming"
           },
-          "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
+          "url": "https://github.com/BirdBrainTechnologies/BirdBrain-Arduino-Libraries/blob/master/bbtech-avr-1.1.0.zip?raw=true",
           "archiveFileName": "bbtech-avr-1.1.0.zip",
           "checksum": "SHA-256:eeeeb36e067fe6c0eb427200cf2abc060ab2ffc29aa703976d502c5e066ece25",
           "size": "50805",
